@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fibonacci Number Calculator</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Calculate Fibonacci Numbers</string>
+    <string name="second_fragment_label">Time For Each Calculation</string>
+    <string name="enter_number">Enter a Number: </string>
+    <string name="summary">Summary</string>
+    <string name="back">Back</string>
+    <string name="total_time_of_calculations">Total time of calculation: %s milliseconds</string>
+    <string name="time_of_calculations">%s milliseconds</string>
+    <string name="seed_number">Seed Number: %d</string>
+</resources>
