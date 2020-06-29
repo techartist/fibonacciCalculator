@@ -38,4 +38,12 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        if (mainViewModel.whichFragmentWeAreOn == NavigationFragment.SECOND) {
+            mainViewModel.changeFragment()
+        }
+        btn_navigation.text = mainViewModel.getButtonText()
+    }
+
 }
